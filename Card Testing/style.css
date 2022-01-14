@@ -1,0 +1,58 @@
+/* Nav Bar */
+
+.navbar {
+  background-color: rgba(221,255,221, 0.5);
+}
+
+/* Carousel video */
+body {
+  margin: 0;
+  background-color: rgba(221,255,221, 0.5);
+}
+.carousel-item {
+  height: 700px;
+  overflow: hidden;
+}
+
+/* Search Bar */
+
+.input-group {
+  margin-top: 750px;
+}
+
+#button-addon2 {
+  margin-right: 350px;
+}
+
+#button-addon2:hover {
+  font-weight: bold;
+  font-size: large;
+  border-color: white;
+  transform: scale(1.09);
+  background-color: #bab86c;
+}
+
+.form-control {
+  margin-left: 350px;
+}
+
+.form-control:focus {
+  border-color: #bab86c;
+  box-shadow: inset 0 1px 1px #f9fafa, 0 0 8px #bab86c;
+}
+
+
+/* Recipe Card */
+
+#container {
+  /* margin: 100px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 50px;
+  column-gap: 80px;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
